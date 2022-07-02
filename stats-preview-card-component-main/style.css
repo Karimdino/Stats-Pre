@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+
+.para{
+
+
+    background-color:  hsla(0, 0%, 100%, 0.75);   
+    font-size: 0.8rem;
+    opacity: 70%;
+    line-height: 1.5;
+    margin-top: 1remx;
+    text-justify:inter-word;
+}
+
+
+
+
+main{
+    background-color: hsl(236, 65%, 5%);
+    max-width: 375px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+}
+
+.container{
+
+    
+    max-width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.container-header{
+
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem 1.5rem;
+    max-width: 100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 1.5em;
+
+}
+
+
+.information{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+
+.companies{
+
+    margin-top: 32px;
+
+
+}
+
+.companies p{
+
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 70%;
+}
+
+
+.Templates{
+    margin-top: 1rem;
+}
+.Templates p{
+    text-transform: uppercase;  
+    font-size: 0.7rem;
+    opacity: 70%;
+    margin-top: 0.5rem;
+}
+
+.queries{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.queries p{
+    text-transform: uppercase;  
+    font-size: 0.7rem;
+    opacity: 70%;
+    margin-top: 0.5rem;
+}
+
+.imagedesktop{
+    max-width: 100%;
+   border-radius: 10px 10px 0 0 ;
+   margin-right: 0;
+   padding-right: 0;
+   display: flex;
+   flex-direction: row;
+}
